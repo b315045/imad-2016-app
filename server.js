@@ -16,13 +16,15 @@ var articleOne = {
                 This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first  article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
                                </p> `
 };
-function createTemplate(data){
-    title=data.title;
-    heading=data.heading;
-    date=data.date;
-    content=data.content;
 
-varTemplate = `
+function createTemplate(data)
+{
+    title = data.title;
+    heading = data.heading;
+    date = data.date;
+    content = data.content;
+
+var htmlTemplate = `
 <html>
     <head>
         <title>
